@@ -7,22 +7,22 @@ import img5 from "../assets/images/img5.jpg";
 export const story = [
   {
     image: img1,
-    text: "Hiiii Goluuuu, Just wanted to tell you somethingggg...",
+    text: "Initialisation du Simulateur de Futur...\nChargement du profil : Carlita 🐼",
   },
   {
     image: img2,
-    text: "Do you remember this picture? Our first picture that you took ✨",
+    text: "Analyse en cours...\n\nParamètres détectés :\n– Sourire déstabilisant\n– Énergie intrigante\n– Grand cœur confirmé",
   },
   {
     image: img3,
-    text: "Our first trip as a hackathon... 🥺",
+    text: "Simulation n°1 :\nOn se fait un date la semaine prochaine.\n\nRésultat probable :\n87% rires\n10% taquineries\n3% moment où je perds mes mots",
   },
   {
     image: img4,
-    text: "A day full of enjoyymenttt 😌",
+    text: "Simulation n°2 :\nOn annule.\n\nRésultat probable :\nRegret universel.\nPerte scientifique d'un excellent moment.",
   },
   {
     image: img5,
-    text: "Yeah, sometimes I do things that make you angry, and I am sorry for that. But just like this image, I choose US. So maaf kar de goluu ❤️",
+    text: "Conclusion de l'algorithme :\nLe scénario 1 présente un potentiel très intéressant.\n\nRecommandation officielle :\nValidation immédiate requise.",
   },
 ];
