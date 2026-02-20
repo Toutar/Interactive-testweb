@@ -56,7 +56,7 @@
 
 //         {noClicks >= 4 && (
 //           <p className="mt-10 text-lg text-gray-500 italic">
-//             Lagta hai jawab mil hi gaya… 😌💖
+//             Analyse en cours… Refuser semble être une mauvaise décision scientifique.
 //           </p>
 //         )}
 //       </div>
@@ -147,7 +147,7 @@ const Question = ({ onYes }) => {
         {/* Cute message after No disappears */}
         {noClicks >= 5 && (
           <p className="mt-10 text-lg text-gray-500 italic">
-            Ab to sirf ek hi jawab bachta hai… 😌💖
+            Analyse en cours… Refuser semble être une mauvaise décision scientifique.
           </p>
         )}
       </div>
