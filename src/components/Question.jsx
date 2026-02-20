@@ -23,8 +23,8 @@
 
 //       {/* Question Card */}
 //       <div className="bg-white/90 backdrop-blur-xl rounded-[3rem] p-14 shadow-2xl text-center max-w-xl w-full">
-//         <h2 className="text-4xl font-semibold text-gray-700 mb-12">
-//           Kya ab tumhari narazgi chali gyi? 🥺
+//         <h2 className="text-4xl font-semibold text-gray-700 mb-6">
+//           Valide-t-on officiellement la simulation ? 😌
 //         </h2>
 
 //         <div className="flex items-center justify-center gap-12 relative">
@@ -34,7 +34,7 @@
 //             onClick={onYes}
 //             className="px-12 py-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-full text-2xl font-medium shadow-lg hover:scale-105 transition-all duration-300"
 //           >
-//             Yes ❤️
+//             Oui, lançons l'expérience ❤️
 //           </button>
 
 //           {/* NO BUTTON */}
@@ -49,7 +49,7 @@
 //               }}
 //               className="px-12 py-4 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-full text-2xl font-medium shadow-lg transition-all duration-300"
 //             >
-//               No 😤
+//               Refuser (déconseillé)
 //             </button>
 //           )}
 //         </div>
@@ -103,7 +103,7 @@ const Question = ({ onYes }) => {
       <div className="relative bg-white/90 backdrop-blur-xl rounded-[3rem] p-14 shadow-2xl text-center max-w-xl w-full">
 
         <h2 className="text-4xl font-semibold text-gray-700 mb-14">
-          Kya ab tumhari narazagi kahatm ho gyii? 🥺
+          Valide-t-on officiellement la simulation ? 😌
         </h2>
 
         {/* Button Area */}
@@ -114,7 +114,7 @@ const Question = ({ onYes }) => {
             onClick={onYes}
             className="px-12 py-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-full text-2xl font-medium shadow-lg hover:scale-105 transition-all duration-300 z-10"
           >
-            Yes ❤️
+            Oui, lançons l'expérience ❤️
           </button>
 
           {/* NO BUTTON — initial side-by-side */}
@@ -123,7 +123,7 @@ const Question = ({ onYes }) => {
               onClick={handleNoClick}
               className="px-12 py-4 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-full text-2xl font-medium shadow-lg transition-all duration-300"
             >
-              No 😤
+              Refuser (déconseillé)
             </button>
           )}
 
