@@ -26,11 +26,12 @@ const FinalScreen = ({ onReplay }) => {
 
         {/* Final Message */}
         <h1 className="text-4xl font-semibold text-gray-700 mb-6">
-          Mujhe pata tha tum zyada der naraz nahi reh sakti 🥹💖
+          Simulation confirmée avec succès.
         </h1>
 
         <p className="text-2xl text-rose-600 mb-10">
-          Ab bas smiles hi smiles 🎉❤️
+            Très bon choix, Panda roux.\n
+            Maintenant il ne reste plus qu'à choisir l'endroit.
         </p>
 
         {/* Replay */}
@@ -38,7 +39,7 @@ const FinalScreen = ({ onReplay }) => {
           onClick={onReplay}
           className="px-10 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-xl font-medium shadow-lg hover:scale-105 transition-all duration-300"
         >
-          Replay 🔁
+          Relancer le simulateur 🔁
         </button>
       </div>
     </div>
